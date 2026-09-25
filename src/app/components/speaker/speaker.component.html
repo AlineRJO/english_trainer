@@ -1,0 +1,19 @@
+<div class="speaker-card">
+  <div class="display-section">
+    <span class="label">Frase atual:</span>
+    <p class="current-message">{{ displayedText }}</p>
+  </div>
+
+  <div class="input-section">
+    <div class="input-wrapper">
+      <input
+        type="text"
+        [(ngModel)]="newPhrase"
+        maxlength="100"
+        placeholder="Digite uma frase em inglês..." />
+      <span class="char-count">{{ newPhrase.length }}/100</span>
+    </div>
+
+    <button type="button" class="btn-play" (click)="playNewPhrase()">Reproduzir</button>
+  </div>
+</div>
