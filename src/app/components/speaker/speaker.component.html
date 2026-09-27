@@ -14,6 +14,9 @@
       <span class="char-count">{{ newPhrase.length }}/100</span>
     </div>
 
-    <button type="button" class="btn-play" (click)="playNewPhrase()">Reproduzir</button>
+    <button matButton="filled" (click)="playNewPhrase()">
+      <mat-icon>play_arrow</mat-icon>
+    </button>
+
   </div>
 </div>
