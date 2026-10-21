@@ -1,0 +1,13 @@
+.create-card-container {
+  border-radius: 12px;
+  background-color: var(--mat-sys-surface-container-low, #ffffff);
+
+  h2 {
+    font-weight: 600;
+    color: var(--mat-sys-on-surface, #212529);
+  }
+
+  mat-form-field {
+    display: block;
+  }
+}
