@@ -1,0 +1,61 @@
+<div class="container my-4">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <div class="card p-4 shadow-sm border-0 create-card-container">
+        <h2 class="h4 mb-3 text-center">Criar Novo Card</h2>
+
+        <form [formGroup]="cardForm" (ngSubmit)="onSubmit()" novalidate>
+          <!-- Campo Título / Instrução -->
+          <div class="mb-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Título / Instrução</mat-label>
+              <input
+                matInput
+                id="card-title-input"
+                formControlName="title"
+                placeholder="Ex: Explain this..."
+                maxlength="100"
+              />
+              <mat-error *ngIf="cardForm.get('title')?.hasError('required')">
+                Campo obrigatório
+              </mat-error>
+              <mat-error *ngIf="cardForm.get('title')?.hasError('maxlength')">
+                Máximo de 100 caracteres
+              </mat-error>
+            </mat-form-field>
+          </div>
+
+          <!-- Campo Texto Auxiliar -->
+          <div class="mb-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Texto Auxiliar</mat-label>
+              <input
+                matInput
+                id="card-auxiliary-text-input"
+                formControlName="auxiliaryText"
+                placeholder="Ex: give a tip"
+                maxlength="300"
+              />
+              <mat-error *ngIf="cardForm.get('auxiliaryText')?.hasError('maxlength')">
+                Máximo de 300 caracteres
+              </mat-error>
+            </mat-form-field>
+          </div>
+
+          <!-- Ações do Formulário -->
+          <div class="d-flex justify-content-end mt-2">
+            <button
+              mat-raised-button
+              color="primary"
+              type="submit"
+              class="px-4"
+              (click)="submitCard()"
+            >
+              Salvar Card
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
