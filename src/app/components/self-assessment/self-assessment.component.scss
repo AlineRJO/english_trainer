@@ -1,0 +1,89 @@
+$color-easy: #2e7d32;   // Verde
+$color-medium: #f57f17; // Amarelo / Âmbar
+$color-hard: #d32f2f;   // Vermelho
+
+:host {
+  display: block;
+}
+
+.self-assessment-wrapper {
+  padding: 0.5rem 0;
+}
+
+// Customização de cores para o botão "Easy" (Verde)
+.radio-easy {
+  --mat-radio-checked-icon-color: #{$color-easy};
+  --mat-radio-checked-indicator-color: #{$color-easy};
+  --mat-radio-checked-ripple-color: #{$color-easy};
+  --mat-radio-state-layer-color: #{$color-easy};
+  --mat-radio-focus-indicator-color: #{$color-easy};
+
+  ::ng-deep {
+    .mdc-radio--selected .mdc-radio__outer-circle,
+    .mdc-radio .mdc-radio__native-control:checked ~ .mdc-radio__background .mdc-radio__outer-circle {
+      border-color: #{$color-easy} !important;
+    }
+
+    .mdc-radio--selected .mdc-radio__inner-circle,
+    .mdc-radio .mdc-radio__native-control:checked ~ .mdc-radio__background .mdc-radio__inner-circle {
+      border-color: #{$color-easy} !important;
+    }
+
+    .mdc-label {
+      color: #{$color-easy};
+      font-weight: 600;
+    }
+  }
+}
+
+// Customização de cores para o botão "Medium" (Amarelo)
+.radio-medium {
+  --mat-radio-checked-icon-color: #{$color-medium};
+  --mat-radio-checked-indicator-color: #{$color-medium};
+  --mat-radio-checked-ripple-color: #{$color-medium};
+  --mat-radio-state-layer-color: #{$color-medium};
+  --mat-radio-focus-indicator-color: #{$color-medium};
+
+  ::ng-deep {
+    .mdc-radio--selected .mdc-radio__outer-circle,
+    .mdc-radio .mdc-radio__native-control:checked ~ .mdc-radio__background .mdc-radio__outer-circle {
+      border-color: #{$color-medium} !important;
+    }
+
+    .mdc-radio--selected .mdc-radio__inner-circle,
+    .mdc-radio .mdc-radio__native-control:checked ~ .mdc-radio__background .mdc-radio__inner-circle {
+      border-color: #{$color-medium} !important;
+    }
+
+    .mdc-label {
+      color: #{$color-medium};
+      font-weight: 600;
+    }
+  }
+}
+
+// Customização de cores para o botão "Hard" (Vermelho)
+.radio-hard {
+  --mat-radio-checked-icon-color: #{$color-hard};
+  --mat-radio-checked-indicator-color: #{$color-hard};
+  --mat-radio-checked-ripple-color: #{$color-hard};
+  --mat-radio-state-layer-color: #{$color-hard};
+  --mat-radio-focus-indicator-color: #{$color-hard};
+
+  ::ng-deep {
+    .mdc-radio--selected .mdc-radio__outer-circle,
+    .mdc-radio .mdc-radio__native-control:checked ~ .mdc-radio__background .mdc-radio__outer-circle {
+      border-color: #{$color-hard} !important;
+    }
+
+    .mdc-radio--selected .mdc-radio__inner-circle,
+    .mdc-radio .mdc-radio__native-control:checked ~ .mdc-radio__background .mdc-radio__inner-circle {
+      border-color: #{$color-hard} !important;
+    }
+
+    .mdc-label {
+      color: #{$color-hard};
+      font-weight: 600;
+    }
+  }
+}
