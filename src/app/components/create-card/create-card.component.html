@@ -25,7 +25,7 @@
             </mat-form-field>
           </div>
 
-          <!-- Campo Texto Auxiliar -->
+          <!-- Campo Texto Auxiliar 1 -->
           <div class="mb-3">
             <mat-form-field appearance="outline" class="w-100">
               <mat-label>Texto Auxiliar</mat-label>
@@ -42,8 +42,63 @@
             </mat-form-field>
           </div>
 
+          <!-- Campo Texto Auxiliar 2 -->
+          <div class="mb-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Texto Auxiliar 2</mat-label>
+              <input
+                matInput
+                id="card-auxiliary2-text-input"
+                formControlName="auxiliaryText2"
+                placeholder="Ex: give a tip"
+                maxlength="300"
+              />
+              <mat-error *ngIf="form.get('auxiliaryText2')?.hasError('maxlength')">
+                Máximo de 300 caracteres
+              </mat-error>
+            </mat-form-field>
+          </div>
+
+          <h3>Card de resposta</h3>
+          <!-- Campo titulo resposta -->
+          <div class="mb-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Título</mat-label>
+              <input
+                matInput
+                id="card-title-input"
+                formControlName="titleAnswer"
+                placeholder="Ex: Explain this..."
+                maxlength="100"
+              />
+              <mat-error *ngIf="form.get('title')?.hasError('required')">
+                Campo obrigatório
+              </mat-error>
+              <mat-error *ngIf="form.get('title')?.hasError('maxlength')">
+                Máximo de 100 caracteres
+              </mat-error>
+            </mat-form-field>
+          </div>
+
+          <!-- Campo Texto Auxiliar 1 resposta -->
+          <div class="mb-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Texto Auxiliar</mat-label>
+              <input
+                matInput
+                id="card-auxiliary-answer-input"
+                formControlName="auxiliaryTextAnswer"
+                placeholder="Ex: give a tip"
+                maxlength="300"
+              />
+              <mat-error *ngIf="form.get('auxiliaryText')?.hasError('maxlength')">
+                Máximo de 300 caracteres
+              </mat-error>
+            </mat-form-field>
+          </div>
+
           <!-- Ações do Formulário -->
-          <div class="d-flex justify-content-end mt-2">
+          <div class="d-flex justify-content-between mt-4">
             <button mat-stroked-button type="button" (click)="goBack()">
               Voltar
             </button>
