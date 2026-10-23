@@ -4,7 +4,7 @@
       <div class="card p-4 shadow-sm border-0 create-card-container">
         <h2 class="h4 mb-3 text-center">Criar Novo Card</h2>
 
-        <form [formGroup]="cardForm" (ngSubmit)="onSubmit()" novalidate>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
           <!-- Campo Título / Instrução -->
           <div class="mb-3">
             <mat-form-field appearance="outline" class="w-100">
@@ -16,10 +16,10 @@
                 placeholder="Ex: Explain this..."
                 maxlength="100"
               />
-              <mat-error *ngIf="cardForm.get('title')?.hasError('required')">
+              <mat-error *ngIf="form.get('title')?.hasError('required')">
                 Campo obrigatório
               </mat-error>
-              <mat-error *ngIf="cardForm.get('title')?.hasError('maxlength')">
+              <mat-error *ngIf="form.get('title')?.hasError('maxlength')">
                 Máximo de 100 caracteres
               </mat-error>
             </mat-form-field>
@@ -36,7 +36,7 @@
                 placeholder="Ex: give a tip"
                 maxlength="300"
               />
-              <mat-error *ngIf="cardForm.get('auxiliaryText')?.hasError('maxlength')">
+              <mat-error *ngIf="form.get('auxiliaryText')?.hasError('maxlength')">
                 Máximo de 300 caracteres
               </mat-error>
             </mat-form-field>
@@ -44,15 +44,20 @@
 
           <!-- Ações do Formulário -->
           <div class="d-flex justify-content-end mt-2">
-            <button
-              mat-raised-button
-              color="primary"
-              type="submit"
-              class="px-4"
-              (click)="submitCard()"
-            >
-              Salvar Card
+            <button mat-stroked-button type="button" (click)="goBack()">
+              Voltar
             </button>
+
+            <button
+            mat-raised-button
+            matButton="filled"
+            color="primary"
+            type="submit"
+            [disabled]="isSaving"
+          >
+            {{ isSaving ? 'Salvando...' : 'Salvar' }}
+          </button>
+         
           </div>
         </form>
       </div>
