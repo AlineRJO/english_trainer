@@ -1,0 +1,10 @@
+{
+  "cards": [
+    {
+      "title": "titulo o que fazer",
+      "auxiliaryText": "texto auxiliar para explicar",
+      "id": "afzJZrlbUY8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
