@@ -1,10 +1,13 @@
 {
   "cards": [
     {
-      "title": "titulo o que fazer",
-      "auxiliaryText": "texto auxiliar para explicar",
-      "id": "afzJZrlbUY8"
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Select, organize and look after something",
+      "auxiliaryText": "curates",
+      "auxiliaryText2": "ex.: The Miraikan curates three or more special interactive exhibitions each year.",
+      "auxiliaryTextAnswer": "",
+      "id": "HiszdvZE6N8"
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "$schema": "../../../node_modules/json-server/schema.json"
 }

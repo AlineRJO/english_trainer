@@ -31,7 +31,10 @@ export class CreateCardComponent {
 
   form: FormGroup = this.fb.group({
     title: ['', [Validators.required, Validators.maxLength(100)]],
-    auxiliaryText: ['', [Validators.required, Validators.maxLength(300)]],
+    titleAnswer: ['', [Validators.required, Validators.maxLength(200)]],
+    auxiliaryText: ['', [Validators.maxLength(300)]],
+    auxiliaryText2: ['', [Validators.maxLength(300)]],
+    auxiliaryTextAnswer: ['', [Validators.maxLength(300)]],
   });
 
   onSubmit(): void {
