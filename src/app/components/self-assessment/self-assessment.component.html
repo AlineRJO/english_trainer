@@ -1,0 +1,27 @@
+<div class="self-assessment-wrapper">
+  <mat-radio-group
+    class="d-flex flex-row align-items-center gap-3"
+    [(ngModel)]="selectedDifficulty"
+    aria-label="Dificuldade percebida ao lembrar da palavra">
+    <mat-radio-button
+      class="radio-easy"
+      value="easy"
+      (change)="onDifficultySelected('easy')">
+      Easy
+    </mat-radio-button>
+
+    <mat-radio-button
+      class="radio-medium"
+      value="medium"
+      (change)="onDifficultySelected('medium')">
+      Medium
+    </mat-radio-button>
+
+    <mat-radio-button
+      class="radio-hard"
+      value="hard"
+      (change)="onDifficultySelected('hard')">
+      Hard
+    </mat-radio-button>
+  </mat-radio-group>
+</div>
