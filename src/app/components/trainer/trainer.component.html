@@ -1,6 +1,6 @@
 <div class="trainer-container container my-4">
    <button mat-stroked-button type="button" (click)="goBack()">
-    Voltar
+    Back
   </button>
 
   <!-- Estado Vazio: Nenhum card disponível -->
@@ -34,9 +34,9 @@
 
           <mat-card-content class="card-content-body text-center">
             <h3 class="card-title-text">{{ currentCard()?.title }}</h3><br>
-            <p class="card-auxiliary-text mb-4 highlightedWord">
+            <p class="card-auxiliary-text mb-4">
                 @if (currentCard()?.auxiliaryText; as text) {
-                  <app-speaker [english_message]="text"></app-speaker>
+                  <app-speaker [english_message]="text" [emphasis]="true"></app-speaker>
                 } @else {
                   {{ currentCard()?.auxiliaryText }}
                 }

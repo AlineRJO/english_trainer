@@ -50,16 +50,13 @@ export class TrainerComponent implements OnInit {
    * Obtém a lista de cards salvos chamando o LocalStorageService.
    */
   loadCards(): void {
-    console.log(`[${Date.now()}] loadCards chamado`);
     const result$ = this.localStorageService.read();
     if (result$ && typeof result$.subscribe === 'function') {
       result$.subscribe({
         next: (cards: CardItem[]) => {
-          console.log(`[${Date.now()}] next recebido com`, cards.length, 'cards');
           this.setCards(cards);
         },
         error: (err: any) => {
-           console.log(`[${Date.now()}] ERROR recebido:`, err);
           this.setCards([]);
         },
       });
@@ -72,11 +69,27 @@ export class TrainerComponent implements OnInit {
    * Configura a lista inicial de cards e define o primeiro card ativo.
    */
   private setCards(cards: CardItem[]): void {
-     this.cards.set(cards || []);
+    const dueCards = cards.filter(card => this.isDueForReview(card.nextRevisionDate));
+    this.cards.set(dueCards);
     this.currentIndex.set(0);
     this.isFinished.set(false);
     this.isFlipped.set(false);
-    this.currentCard.set(cards.length > 0 ? cards[0] : null);
+    this.currentCard.set(dueCards.length > 0 ? dueCards[0] : null);
+  }
+
+  isDueForReview(nextRevisionDate: Date | string | undefined): boolean {
+    if (!nextRevisionDate) {
+      return true; // sem data definida = card novo, entra na fila
+    }
+
+    const revisionDate = new Date(nextRevisionDate);
+    const today = new Date();
+
+    // Zera as horas para comparar só a data (ignorando horário)
+    revisionDate.setHours(0, 0, 0, 0);
+    today.setHours(0, 0, 0, 0);
+
+    return revisionDate <= today;
   }
 
   /**

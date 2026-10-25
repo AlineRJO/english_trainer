@@ -1,6 +1,8 @@
 <div>
   <div class="display-section">
-    <p class="current-message">{{ displayedText }}</p>
+    <p class="current-message" [class.emphasis-highlight]="emphasis">
+      {{ displayedText }}
+    </p>
   </div>
 
   <div *ngIf="seeWriteText" class="input-section">
