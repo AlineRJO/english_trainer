@@ -1,10 +1,9 @@
-<div class="speaker-card">
+<div>
   <div class="display-section">
-    <span class="label">Frase atual:</span>
     <p class="current-message">{{ displayedText }}</p>
   </div>
 
-  <div class="input-section">
+  <div *ngIf="seeWriteText" class="input-section">
     <div class="input-wrapper">
       <input
         type="text"
@@ -13,10 +12,9 @@
         placeholder="Digite uma frase em inglês..." />
       <span class="char-count">{{ newPhrase.length }}/100</span>
     </div>
-
-    <button matButton="filled" (click)="playNewPhrase()">
-      <mat-icon>play_arrow</mat-icon>
-    </button>
-
   </div>
+
+  <button matButton="filled" (click)="playNewPhrase()">
+    <mat-icon>play_arrow</mat-icon>Play
+  </button>
 </div>

@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class SpeakerComponent implements OnChanges {
   @Input() english_message: string = 'I speak English now!';
+  @Input() seeWriteText: boolean = false;
   newPhrase: string = '';
   displayedText: string = 'I speak English now!';
 
