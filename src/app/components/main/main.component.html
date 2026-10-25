@@ -5,7 +5,8 @@
 
   <div class="row align-items-stretch">
     <div class="col-4 offset-2 ps-2 pe-1">
-       <img mat-card-image src="practice.png" alt="Photo of trainer english" class="col-12 img-fit">
+       <img mat-card-image src="practice.png" (click)="goToLink('trainer-card')"
+        alt="Photo of trainer english" class="col-12 img-fit">
     </div>
     <div class="col-4 ps-1 pe-2 overflow-hidden">
       <img mat-card-image (click)="goToLink('create-card')"
