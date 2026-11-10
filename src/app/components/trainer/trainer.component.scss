@@ -6,13 +6,21 @@
   max-width: 600px;
 }
 
+.config-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
 // Contêiner com perspectiva 3D
 .card-flip-container {
-  perspective: 1000px;
-  width: 100%;
-  max-width: 520px;
-  // height: 380px;
-  margin: 0 auto;
+   perspective: 1000px;
+    width: 100%;
+    max-width: 520px;
+    height: 380px; // ← reative isso
+    margin: 0 auto;
+    // display: contents; ← remova
 
   // Elemento interno que rotaciona
   .card-flip-inner {
@@ -90,5 +98,6 @@
   }
 }
 .text-muted {
-  z-index: 1;
+  justify-content: center;
+  display: flex;
 }
