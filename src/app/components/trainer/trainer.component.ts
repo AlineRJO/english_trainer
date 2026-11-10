@@ -37,6 +37,8 @@ export class TrainerComponent implements OnInit {
   private router = inject(Router);
 
   cards = signal<CardItem[]>([]);
+  newQtdRevision: number = 0;
+  newDateRevision: Date | null = null;
   currentIndex = signal(0);
   currentCard = signal<CardItem | null>(null);
   isFlipped = signal(false);
@@ -110,18 +112,8 @@ export class TrainerComponent implements OnInit {
     if (!card) return;
 
     const currentQtd = card.qtdRevision ?? 1;
-    const updatedCard = { ...card, qtdRevision: currentQtd + 1, nextRevisionDate: date };
-
-    this.localStorageService.update(card.id, {
-      nextRevisionDate: date,
-      qtdRevision: updatedCard.qtdRevision,
-    }).subscribe({
-      next: () => this.advanceToNextCard(),
-      error: (err: any) => {
-        console.error('Erro ao atualizar card:', err);
-        this.advanceToNextCard();
-      },
-    });
+    this.newQtdRevision = currentQtd + 1;
+    this.newDateRevision = date;
   }
 
   /**
@@ -147,5 +139,28 @@ export class TrainerComponent implements OnInit {
 
   goBack(): void {
     this.router.navigate(['/']);
+  }
+
+  goToNextCard(): void {
+    const currenctCard = this.currentCard();
+    try {
+      if (!currenctCard) {
+        console.warn('Nenhum card atual para avançar.');
+        return;
+      }
+      this.localStorageService.update(currenctCard.id, {
+        nextRevisionDate: this.newDateRevision,
+        qtdRevision: this.newQtdRevision,
+      }).subscribe({
+        next: () => this.advanceToNextCard(),
+        error: (err: any) => {
+          console.error('Erro ao atualizar card:', err);
+          this.advanceToNextCard();
+        },
+        });
+    } catch (error) {
+      console.error('Erro ao atualizar card:', error);
+      this.advanceToNextCard();
+    }
   }
 }

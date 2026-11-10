@@ -1,0 +1,635 @@
+{
+  "vocabulary": [
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Select, organize and look after something",
+      "auxiliaryText": "curates",
+      "auxiliaryText2": "ex.: The Miraikan curates three or more special interactive exhibitions each year.",
+      "auxiliaryTextAnswer": "",
+      "id": "HiszdvZE6N8",
+      "nextRevisionDate": "2026-11-03T11:37:41.915Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Describes how someone feels emotionally at a particular time.",
+      "auxiliaryText": "mood",
+      "auxiliaryText2": "Ex.: She is in a good mood today.",
+      "auxiliaryTextAnswer": "Ex: Music always improves my mood.",
+      "id": "mD7xKp9Qa2L",
+      "nextRevisionDate": "2026-11-02T19:11:16.725Z",
+      "qtdRevision": 3
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Relaxed and not worried or stressed.",
+      "auxiliaryText": "chilled out",
+      "auxiliaryText2": "Ex.: I like to stay chilled out on weekends.",
+      "auxiliaryTextAnswer": "",
+      "id": "vR4nT8bY3Wc",
+      "nextRevisionDate": "2026-10-30T18:13:07.553Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Somewhat; to a moderate degree, but not completely.",
+      "auxiliaryText": "somewhat",
+      "auxiliaryText2": "Ex.: I am somewhat tired after work.",
+      "auxiliaryTextAnswer": "",
+      "id": "aF6jH2sN9Zd",
+      "nextRevisionDate": "2026-10-30T20:45:26.015Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Not requiring much effort; simple to do or understand.",
+      "auxiliaryText": "maneuver",
+      "auxiliaryText2": "Ex.: It is easy to maneuver this small car.",
+      "auxiliaryTextAnswer": "",
+      "id": "pL8wC5eB1Xq",
+      "nextRevisionDate": "2026-10-31T11:40:09.939Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To a fairly large degree; moderately.",
+      "auxiliaryText": "fairly",
+      "auxiliaryText2": "Ex.: My routine is fairly simple.",
+      "auxiliaryTextAnswer": "",
+      "id": "kG3zM7uJ4Rt",
+      "nextRevisionDate": "2026-11-01T11:39:17.803Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Used to introduce a preference or offer an alternative.",
+      "auxiliaryText": "rather",
+      "auxiliaryText2": "Ex.: Would you rather have tea or coffee?",
+      "auxiliaryTextAnswer": "",
+      "id": "bW9cR4tK6Hp",
+      "nextRevisionDate": "2026-11-02T19:11:16.725Z",
+      "qtdRevision": 3
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To behave toward someone in a particular way; also, a special event or occasion.",
+      "auxiliaryText": "treat",
+      "auxiliaryText2": "Ex.: Treat others with respect.",
+      "auxiliaryTextAnswer": "Ex.:You worked hard this week. Treat yourself to a nice dinner!",
+      "id": "eJ2xL7mA5Uv",
+      "nextRevisionDate": "2026-11-03T11:39:36.744Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "The act of accepting something or someone; approval or agreement.",
+      "auxiliaryText": "acceptance",
+      "auxiliaryText2": "Ex.: Her acceptance of the job offer made her very happy.",
+      "auxiliaryTextAnswer": "",
+      "id": "qT6fZ3nD8Yk",
+      "nextRevisionDate": "2026-10-31T12:11:41.491Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To make someone feel unhappy, anxious, or worried; a feeling of emotional disturbance.",
+      "auxiliaryText": "upset",
+      "auxiliaryText2": "Ex.: She was upset when she heard the bad news.",
+      "auxiliaryTextAnswer": "",
+      "id": "hB4vP9sE2Mc",
+      "nextRevisionDate": "2026-11-03T11:39:36.744Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To express dissatisfaction or annoyance about something.",
+      "auxiliaryText": "complaining",
+      "auxiliaryText2": "Ex.: Stop complaining and help me clean the kitchen.",
+      "auxiliaryTextAnswer": "",
+      "id": "zK7mN3wF5Ra",
+      "nextRevisionDate": "2026-11-03T11:39:36.744Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To throw something forcefully through the air.",
+      "auxiliaryText": "threw",
+      "auxiliaryText2": "Ex.: The angry teacher threw the pen across the room.",
+      "auxiliaryTextAnswer": "",
+      "id": "cX2pD8jL6Vb",
+      "nextRevisionDate": "2026-11-03T11:39:36.744Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To make a great effort to do something difficult or to fight against a problem.",
+      "auxiliaryText": "struggle",
+      "auxiliaryText2": "Ex.: I struggle with English grammar, but I keep practicing.",
+      "auxiliaryTextAnswer": "",
+      "id": "nM5rY1tG9Qe",
+      "nextRevisionDate": "2026-11-02T11:42:19.546Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "The physical or mental energy needed to do something; hard work.",
+      "auxiliaryText": "effort",
+      "auxiliaryText2": "Ex.: Learning English takes time and effort.",
+      "auxiliaryTextAnswer": "",
+      "id": "fA8kW4zH2Pd",
+      "nextRevisionDate": "2026-11-05T11:42:34.297Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Having a high level of knowledge or skill in a particular field.",
+      "auxiliaryText": "leading",
+      "auxiliaryText2": "Ex.: She is a leading expert in technology.",
+      "auxiliaryTextAnswer": "",
+      "id": "uR3bJ7xC5Lm",
+      "nextRevisionDate": "2026-10-31T12:28:47.315Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Despite the fact that; used to introduce a contrast.",
+      "auxiliaryText": "although",
+      "auxiliaryText2": "Ex.: Although it was raining, they went for a walk.",
+      "auxiliaryTextAnswer": "",
+      "id": "dV9hT2qN6Ks",
+      "nextRevisionDate": "2026-11-02T11:43:10.353Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "A piece of writing on a particular subject, usually presenting ideas or arguments.",
+      "auxiliaryText": "essay",
+      "auxiliaryText2": "Ex.: I have to write an essay about climate change.",
+      "auxiliaryTextAnswer": "",
+      "id": "gL4cX8mB1Yw",
+      "nextRevisionDate": "2026-10-31T12:29:32.683Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Feeling confident and certain about something; not worried or doubtful.",
+      "auxiliaryText": "relieved",
+      "auxiliaryText2": "Ex.: I am so relieved to hear that you are safe.",
+      "auxiliaryTextAnswer": "",
+      "id": "sP7nE3vK9Ha",
+      "nextRevisionDate": "2026-10-31T12:29:32.683Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Extremely attractive, charming, or fascinating.",
+      "auxiliaryText": "captivating",
+      "auxiliaryText2": "Ex.: She has a captivating smile that everyone notices.",
+      "auxiliaryTextAnswer": "",
+      "id": "wC5jR2yM8Fd",
+      "nextRevisionDate": "2026-10-31T12:29:32.683Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Up to a particular time or event; until that moment. Till and until have the same meaning. You can use either one in this sentence",
+      "auxiliaryText": "till",
+      "auxiliaryText2": "Ex.: I will stay here till tomorrow.",
+      "auxiliaryTextAnswer": "Ex. I will study English till 8 PM",
+      "id": "xH6qB9tN4Ze",
+      "nextRevisionDate": "2026-11-02T11:43:10.353Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Happening very quickly and unexpectedly.",
+      "auxiliaryText": "suddenly",
+      "auxiliaryText2": "Ex.: Suddenly, the lights went out.",
+      "auxiliaryTextAnswer": "",
+      "id": "jD3mF7pA2Yv",
+      "nextRevisionDate": "2026-10-31T12:42:02.315Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Left home or went somewhere. Something stopped working or functioning.",
+      "auxiliaryText": "went out",
+      "auxiliaryText2": "Ex.: The lights went out during the storm",
+      "auxiliaryTextAnswer": "Ex.: They went out together last night",
+      "id": "jD3mF7pA2Cb",
+      "nextRevisionDate": "2026-11-05T11:43:54.642Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "For that reason; as a result.",
+      "auxiliaryText": "therefore",
+      "auxiliaryText2": "Ex.: It was raining; therefore, we stayed at home.",
+      "auxiliaryTextAnswer": "",
+      "id": "rN8zK4wT6Lc",
+      "nextRevisionDate": "2026-11-02T11:44:36.664Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Filled with many people or things close together.",
+      "auxiliaryText": "crowded",
+      "auxiliaryText2": "Ex.: The subway is always crowded during rush hour.",
+      "auxiliaryTextAnswer": "",
+      "id": "mY2fV9hQ5Bx",
+      "nextRevisionDate": "2026-11-02T11:44:36.664Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Extremely impressive, beautiful, or surprising; inspiring wonder.",
+      "auxiliaryText": "wondrous",
+      "auxiliaryText2": "Ex.: The night sky was a wondrous sight.",
+      "auxiliaryTextAnswer": "",
+      "id": "pE6tJ3xW8Ka",
+      "nextRevisionDate": "2026-10-31T12:51:15.932Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "To express strong approval or admiration for someone or something.",
+      "auxiliaryText": "praise",
+      "auxiliaryText2": "Ex.: The teacher praised the student for her excellent work.",
+      "auxiliaryTextAnswer": "",
+      "id": "vB4nL7cR2Zd",
+      "nextRevisionDate": "2026-11-05T11:45:05.624Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the definition of this word in the sentence?",
+      "titleAnswer": "Emphasizing something. Describing a type of thing",
+      "auxiliaryText": "such",
+      "auxiliaryText2": "Ex.: It was such a beautiful day!",
+      "auxiliaryTextAnswer": "Ex.: I love such stories",
+      "id": "kQ9wH5mX3Fs",
+      "nextRevisionDate": "2026-11-05T11:45:05.624Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Certainly; without doubt.",
+      "auxiliaryText": "Definitely",
+      "auxiliaryText2": "Ex.: I will definitely finish my homework today.",
+      "auxiliaryTextAnswer": "Ex.: She is definitely the right person for the job.",
+      "id": "cb83d35c-75b5-4004-8c43-7e8aa616f2c3",
+      "nextRevisionDate": "2026-11-05T11:45:05.624Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Tasting very good; delicious.",
+      "auxiliaryText": "Yummy",
+      "auxiliaryText2": "Ex.: This cake is really yummy.",
+      "auxiliaryTextAnswer": "Ex.: We had a yummy lunch at the new restaurant.",
+      "id": "6a25a0d3-8462-4c40-9ecf-2f0df9e4adeb",
+      "nextRevisionDate": "2026-11-05T11:45:05.624Z",
+      "qtdRevision": 2
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Causing something to stop completely or come to a sudden end.",
+      "auxiliaryText": "Bring a halt",
+      "auxiliaryText2": "Ex.: The heavy snow brought traffic to a halt.",
+      "auxiliaryTextAnswer": "Ex.: A power failure brought the concert to a halt.",
+      "id": "15aec286-4d48-4d4c-8902-7c8eb7e2eca7",
+      "nextRevisionDate": "2026-11-02T11:46:15.321Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To allow yourself to enjoy something pleasurable, often more than usual.",
+      "auxiliaryText": "Indulge",
+      "auxiliaryText2": "Ex.: I like to indulge in a large piece of chocolate cake.",
+      "auxiliaryTextAnswer": "Ex.: She decided to indulge herself with a relaxing bath.",
+      "id": "d9cc7a9a-4a98-4a25-9bb2-337c12d2fe17",
+      "nextRevisionDate": "2026-11-05T11:47:02.457Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To not have enough of something; to be missing something.",
+      "auxiliaryText": "Lack",
+      "auxiliaryText2": "Ex.: Some plants lack enough water in the summer.",
+      "auxiliaryTextAnswer": "Ex.: The report lacks important information.",
+      "id": "a1550c77-e0ad-4c99-aa06-bc91231c3310",
+      "nextRevisionDate": "2026-10-30T11:47:47.762Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Maybe; possibly.",
+      "auxiliaryText": "Perhaps",
+      "auxiliaryText2": "Ex.: Perhaps you could consider hiring more staff.",
+      "auxiliaryTextAnswer": "Ex.: Perhaps we should leave a little earlier.",
+      "id": "e18ef18a-b165-46e5-814c-1fddb4bea805",
+      "nextRevisionDate": "2026-11-02T11:48:07.897Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A goal or purpose; what someone hopes to achieve.",
+      "auxiliaryText": "Aim",
+      "auxiliaryText2": "Ex.: My aim is to speak English more confidently.",
+      "auxiliaryTextAnswer": "Ex.: The aim of this lesson is to improve your vocabulary.",
+      "id": "cafd1d42-e52c-41d5-bcf5-1475f254615e",
+      "nextRevisionDate": "2026-10-30T11:48:33.392Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Right or appropriate for a particular purpose or situation.",
+      "auxiliaryText": "Suitable",
+      "auxiliaryText2": "Ex.: These shoes are suitable for walking.",
+      "auxiliaryTextAnswer": "Ex.: This movie is suitable for children.",
+      "id": "6c0aa075-08bc-429b-ad5a-743637d14bec",
+      "nextRevisionDate": "2026-11-05T11:48:49.441Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "(Adjective) Complete and careful, with attention to every detail.",
+      "auxiliaryText": "Thorough",
+      "auxiliaryText2": "Ex.: Please do a thorough check before you submit the form.",
+      "auxiliaryTextAnswer": "Ex.: The doctor gave me a thorough examination.",
+      "id": "dc1cd812-572d-419a-a77b-ec0cb819ed7e",
+      "nextRevisionDate": "2026-10-30T11:49:35.544Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Almost; not quite.",
+      "auxiliaryText": "Nearly",
+      "auxiliaryText2": "Ex.: I have nearly finished my book.",
+      "auxiliaryTextAnswer": "Ex.: We nearly missed the bus.",
+      "id": "49d880a9-7cb2-4984-be57-0081aaa367e2",
+      "nextRevisionDate": "2026-11-02T11:52:23.272Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "(Verb) To make certain that something happens or is true.",
+      "auxiliaryText": "Ensure",
+      "auxiliaryText2": "Ex.: Please ensure that the door is locked.",
+      "auxiliaryTextAnswer": "Ex.: This checklist helps ensure that nothing is forgotten.",
+      "id": "5e5fc5c6-75b4-46da-ab6f-5888c8f8cab0",
+      "nextRevisionDate": "2026-11-05T11:53:42.072Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Used to say that something bad or disappointing happened.",
+      "auxiliaryText": "Unfortunately",
+      "auxiliaryText2": "Ex.: Unfortunately, I missed the train.",
+      "auxiliaryTextAnswer": "Ex.: Unfortunately, the store was closed.",
+      "id": "09168657-c2e9-4c65-a797-94b9479c4882",
+      "nextRevisionDate": "2026-11-05T11:53:42.072Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "An informal word for a roommate; someone you share a room or home with.",
+      "auxiliaryText": "Roomie",
+      "auxiliaryText2": "Ex.: My roomie and I cook dinner together.",
+      "auxiliaryTextAnswer": "Ex.: I met my new roomie yesterday.",
+      "id": "33310bab-f132-4a9c-bff4-dfbf92d2fcef",
+      "nextRevisionDate": "2026-11-05T11:53:42.072Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "But; used to introduce a contrast.",
+      "auxiliaryText": "However",
+      "auxiliaryText2": "Ex.: The weather was awful. However, we decided to walk by the pool.",
+      "auxiliaryTextAnswer": "Ex.: I was tired; however, I continued studying.",
+      "id": "5d8a0903-34e7-4108-850a-0ea76652f704",
+      "nextRevisionDate": "2026-11-02T11:54:34.129Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Not expected or predicted; unexpected.",
+      "auxiliaryText": "Unforeseen",
+      "auxiliaryText2": "Ex.: We had to come back from our vacation early because of an unforeseen emergency.",
+      "auxiliaryTextAnswer": "Ex.: An unforeseen problem delayed the project.",
+      "id": "63167cf6-483a-4ec6-94f5-f74be7ee3fa3",
+      "nextRevisionDate": "2026-11-02T11:54:34.129Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "The woman who is married to someone's father but is not their biological mother.",
+      "auxiliaryText": "Stepmother",
+      "auxiliaryText2": "Ex.: My stepmother makes delicious soup.",
+      "auxiliaryTextAnswer": "Ex.: He visited his stepmother on Sunday.",
+      "id": "a721fbe9-8246-4172-bf40-3fe04ea2a07a",
+      "nextRevisionDate": "2026-11-06T11:55:38.442Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Deep sadness, especially after someone has died.",
+      "auxiliaryText": "Grief",
+      "auxiliaryText2": "Ex.: She needed time to cope with her grief.",
+      "auxiliaryTextAnswer": "Ex.: His friends supported him during his grief.",
+      "id": "172b9d5a-dab2-4567-9d39-50362b6fddcb",
+      "nextRevisionDate": "2026-10-30T11:56:37.299Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To feel or express deep sadness about a loss.",
+      "auxiliaryText": "Grieve over",
+      "auxiliaryText2": "Ex.: It is natural to grieve over the loss of someone you love.",
+      "auxiliaryTextAnswer": "Ex.: He continued to grieve over his friend's death.",
+      "id": "f562bfbd-3372-4470-ac83-a8594ddccee5",
+      "nextRevisionDate": "2026-11-02T12:05:38.194Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Honestly; speaking openly and directly.",
+      "auxiliaryText": "Frankly",
+      "auxiliaryText2": "Ex.: Frankly, I don't think that movie was very good.",
+      "auxiliaryTextAnswer": "Ex.: Frankly, I need more time to make a decision.",
+      "id": "a32a2286-c333-4597-b0f0-5651e6af1372",
+      "nextRevisionDate": "2026-11-02T12:05:38.194Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A little; by a small amount or degree.",
+      "auxiliaryText": "Slightly",
+      "auxiliaryText2": "Ex.: I'm slightly tired, but I will keep studying.",
+      "auxiliaryTextAnswer": "Ex.: The second exercise is slightly harder.",
+      "id": "d0793a15-83a1-45b4-ab5c-cdb267f4de7d",
+      "nextRevisionDate": "2026-11-02T12:05:38.194Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "(Adjective) Comfortable, warm, and pleasant.",
+      "auxiliaryText": "Cozy",
+      "auxiliaryText2": "Ex.: This is a cozy room to read in.",
+      "auxiliaryTextAnswer": "Ex.: We spent a cozy evening at home.",
+      "id": "e8b5a1c2-cd4d-4456-bc81-45e2bdf95770",
+      "nextRevisionDate": "2026-10-30T12:01:39.201Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To relax and enjoy the warmth of the sun.",
+      "auxiliaryText": "Bask in the sunshine",
+      "auxiliaryText2": "Ex.: I like to bask in the sunshine on warm days.",
+      "auxiliaryTextAnswer": "Ex.: The cat basked in the sunshine by the window.",
+      "id": "63d92529-5954-4665-91f7-c04d7a30a38e",
+      "nextRevisionDate": "2026-11-02T12:05:38.194Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "The activity of taking a long walk in the countryside or mountains.",
+      "auxiliaryText": "Hiking",
+      "auxiliaryText2": "Ex.: We went hiking in the mountains last weekend.",
+      "auxiliaryTextAnswer": "Ex.: Hiking is a great way to enjoy nature.",
+      "id": "5ce488a4-400d-42ef-a402-432eb88c9f14",
+      "nextRevisionDate": "2026-11-06T12:06:26.594Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A person who has expert knowledge of and appreciates a subject, especially art, food, or drink.",
+      "auxiliaryText": "Connoisseur",
+      "auxiliaryText2": "Ex.: He is a connoisseur of fine art.",
+      "auxiliaryTextAnswer": "Ex.: As a coffee connoisseur, she can recognize different flavors.",
+      "id": "07ff3a3e-56d4-479c-8700-51b69877244f",
+      "nextRevisionDate": "2026-11-02T12:06:41.009Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "The ability to make good decisions using knowledge and experience.",
+      "auxiliaryText": "Wisdom",
+      "auxiliaryText2": "Ex.: My grandmother has a lot of wisdom.",
+      "auxiliaryTextAnswer": "Ex.: He shared some words of wisdom with the students.",
+      "id": "e42f9bcb-d5c8-4ace-8a1e-5cc9af0de752",
+      "nextRevisionDate": "2026-10-30T12:07:20.954Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To wish you had given yourself permission to explore without a strict plan.",
+      "auxiliaryText": "I wish I had allowed myself to get lost",
+      "auxiliaryText2": "Ex.: I wish I had allowed myself to get lost in the city.",
+      "auxiliaryTextAnswer": "Ex.: I wish I had allowed myself to explore the old streets.",
+      "id": "90c990ac-da44-4843-988d-0595fcf2d37c",
+      "nextRevisionDate": "2026-11-06T12:08:24.890Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To stop trying to manage or control everything around you.",
+      "auxiliaryText": "Let go of control",
+      "auxiliaryText2": "Ex.: Sometimes, you need to let go of control and enjoy the moment.",
+      "auxiliaryTextAnswer": "Ex.: I am learning to let go of control and trust the process.",
+      "id": "3f21e09e-40d8-48d5-94ee-5c9f9ec64989",
+      "nextRevisionDate": "2026-11-06T12:08:24.890Z",
+      "qtdRevision": 1
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A way to say that you would prefer one thing over another.",
+      "auxiliaryText": "I'd rather",
+      "auxiliaryText2": "Ex.: I'd rather stay home and read tonight.",
+      "auxiliaryTextAnswer": "Ex.: I'd rather walk than take the bus.",
+      "id": "047ac229-9ddc-4a87-9676-a4c2c2ea267a",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To spend time relaxing or socializing with someone, usually casually.",
+      "auxiliaryText": "Hang out",
+      "auxiliaryText2": "Ex.: Do you want to hang out at my house this weekend?",
+      "auxiliaryTextAnswer": "Ex.: We usually hang out after class.",
+      "id": "3fe48065-1592-428f-8558-3b24b20ec677",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "The newest or most recent.",
+      "auxiliaryText": "Latest",
+      "auxiliaryText2": "Ex.: The people of Tokyo have the latest cars.",
+      "auxiliaryTextAnswer": "Ex.: Have you seen the latest news?",
+      "id": "f49a5ac9-1269-4489-82ca-008ebd7e3262",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "Very modern and advanced; using the newest ideas or technology.",
+      "auxiliaryText": "Cutting-edge",
+      "auxiliaryText2": "Ex.: Japan has cutting-edge technology in people's daily lives.",
+      "auxiliaryTextAnswer": "Ex.: The company uses cutting-edge technology.",
+      "id": "68c092f0-8db8-4785-87dd-9b6079120764",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A street full of activity, people, and movement.",
+      "auxiliaryText": "A bustling street",
+      "auxiliaryText2": "Ex.: The city has bustling streets filled with the newest technology.",
+      "auxiliaryTextAnswer": "Ex.: We walked along a bustling street full of shops and cafés.",
+      "id": "6a71823d-5209-4959-a97d-1519aa34572e",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A person who is exceptionally intelligent or shows extraordinary ability.",
+      "auxiliaryText": "Genius",
+      "auxiliaryText2": "Ex.: She is a genius at solving difficult problems.",
+      "auxiliaryTextAnswer": "Ex.: The young genius invented a useful app.",
+      "id": "79efe254-5fd0-41d6-a66f-9896ff6a7e7e",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "A person who supports an activity, organization, or place, often with money; also a customer of a business.",
+      "auxiliaryText": "Patron",
+      "auxiliaryText2": "Ex.: The museum's patron donated money for a new exhibition.",
+      "auxiliaryTextAnswer": "Ex.: He is a regular patron of that café.",
+      "id": "637d83e5-eb02-4876-b5c8-95b8e2407b86",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "To select, organize, and look after items or content, especially for a collection or exhibition.",
+      "auxiliaryText": "Curate",
+      "auxiliaryText2": "Ex.: The curator curates two special exhibitions each year.",
+      "auxiliaryTextAnswer": "Ex.: She curated a collection of photographs for the gallery.",
+      "id": "235196fb-2715-4d17-ac32-027e9f905949",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    },
+    {
+      "title": "What is the meaning of this word or expression?",
+      "titleAnswer": "(Verb) To deal successfully with a difficult situation, problem, or emotion.",
+      "auxiliaryText": "Cope",
+      "auxiliaryText2": "Ex.: She learned to cope with stress at work.",
+      "auxiliaryTextAnswer": "Ex.: He finds it difficult to cope with change.",
+      "id": "8f47c2a1-6e93-4b85-a2d7-91c6e04f3b72",
+      "nextRevisionDate": "",
+      "qtdRevision": 0
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

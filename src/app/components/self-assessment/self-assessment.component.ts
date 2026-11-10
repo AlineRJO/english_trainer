@@ -59,8 +59,8 @@ export class SelfAssessmentComponent {
   /** Pesos por nível de dificuldade em dias */
   private readonly difficultyWeights: Record<Difficulty, number> = {
     hard: 1,
-    medium: 3,
-    easy: 5,
+    medium: 4,
+    easy: 8,
   };
 
   /**
