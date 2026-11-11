@@ -59,6 +59,10 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 ## Recursos
+Para rodar o projeto:
+ng serve
+npm run api
+
 Foi utilizado o concurrently para rodar mais de um script no mesmo terminal ocupando as portas 3000 e 3001. Através da configuração no package.json:
 "api": "concurrently \"npm:json:*\""
 Isso vai rodar todos os scripts do package.json cujo nome começa com json

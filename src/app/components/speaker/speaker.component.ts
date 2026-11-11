@@ -14,21 +14,21 @@ export class SpeakerComponent implements OnChanges {
   @Input() english_message: string = 'I speak English now!';
   @Input() seeWriteText: boolean = false;
   @Input() emphasis: boolean = false;
-  newPhrase: string = '';
-  displayedText: string = 'I speak English now!';
+  newPhrase: string = 'I speak English now!';
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['english_message']) {
       const value = changes['english_message'].currentValue || '';
-      this.displayedText = value.substring(0, 100);
-      this.speak(this.displayedText);
+      this.newPhrase = value.substring(0, 100);
     }
   }
 
   speak(text: string): void {
     if (!text) return;
     const cleanText = text.substring(0, 100);
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined') {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window
+      && typeof SpeechSynthesisUtterance !== 'undefined') {
+      speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(cleanText);
       utterance.lang = 'en-US';
       window.speechSynthesis.speak(utterance);
@@ -38,9 +38,8 @@ export class SpeakerComponent implements OnChanges {
   playNewPhrase(): void {
     const trimmed = this.newPhrase.trim();
     if (trimmed) {
-      this.displayedText = this.newPhrase.substring(0, 100);
-      this.english_message = this.displayedText;
-      this.speak(this.newPhrase);
+      var displayedText = this.newPhrase.substring(0, 100);
+      this.speak(displayedText);
     }
   }
 }
